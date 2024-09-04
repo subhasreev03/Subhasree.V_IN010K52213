@@ -1,0 +1,22 @@
+
+<h2>Delete Record</h2>
+<div>
+  <form #adduser="ngForm">
+    <div class="form-group">
+      <label for="id">Enter ID to Delete:</label>
+      <input type="text" class="form-control" id="id" required [(ngModel)]="product.id" name="id">
+    </div>
+
+    <button type="button" class="btn btn-success" (click)="deleteuser(product.id)">Delete</button>
+  </form>
+</div>
+
+<!-- Displaying the list of products -->
+<div *ngIf="products.length > 0">
+  <h3>Product List</h3>
+  <ul>
+    <li *ngFor="let product of products">
+      {{ product.id }} - {{ product.name }} - {{ product.price }} - {{ product.description }} - {{ product.quantity}} - {{ product.brand }} - {{ product.category }}
+    </li>
+  </ul>
+</div>

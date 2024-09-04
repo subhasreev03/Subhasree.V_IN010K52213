@@ -1,0 +1,96 @@
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+ /* Container styling */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue background for container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  h2 {
+    text-align: center;
+    color: #1e90ff; /* Dodger blue color for heading */
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  /* Table styling */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table thead {
+    background-color: #1e90ff; /* Dodger blue for header */
+    color: white;
+  }
+  
+  .table-striped tbody tr:nth-child(odd) {
+    background-color: #e6f2ff; /* Light blue for odd rows */
+  }
+  
+  .table-striped tbody tr:nth-child(even) {
+    background-color: #f0f8ff; /* Lighter blue for even rows */
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #d1e7ff; /* Slightly darker blue on hover */
+  }
+  
+  /* Button styling */
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #1e90ff; /* Dodger blue for buttons */
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #104e8b; /* Darker blue on hover */
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 1000px) {
+    .container {
+      padding: 15px;
+    }
+  
+    table {
+      font-size: 14px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    button, .btn {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  }
+  
+  
